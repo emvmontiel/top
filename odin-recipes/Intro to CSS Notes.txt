@@ -99,3 +99,31 @@ Both properties accept keywords, HEX, RGB, and HSL values.
     /* hsl example: */
     color: hsl(15, 82%, 56%);
     }
+________________________________
+TYPOGRAPHY BASICS AND TEXT-ALIGN
+https://www.theodinproject.com/lessons/foundations-intro-to-css#typography-basics-and-text-align
+
+Font-family 
+> can be a single value
+> can be a comma-separated list of values
+> determines what font an element uses
+______________________
+IMAGE HEIGHT AND WIDTH
+https://www.theodinproject.com/lessons/foundations-intro-to-css#image-height-and-width
+
+If you wanted to adjust the size of the image without causing it to lose its proportions, you would use a value of “auto” for the height property and adjust the width value.
+
+___________________________________
+THREE METHODS OF ADDING CSS TO HTML
+https://www.theodinproject.com/lessons/foundations-intro-to-css#adding-css-to-html
+1. External CSS
+2. Internal or embedded CSS
+3. Inline CSS
+
+__________
+ASSIGNMENT
+01-css-methods
+02-class-id-selectors
+03-grouping-selectors
+04-chaining-selectors
+05-descendant-combinator
