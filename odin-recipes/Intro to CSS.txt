@@ -1,0 +1,101 @@
+Sep 4, 2025 09:12
+https://www.theodinproject.com/lessons/foundations-intro-to-css
+
+CSS is made up of various rules. 
+Each rule is made up of a selector and a semicolon-separated list of declarations.
+Each declaration is made up of a property-value pair.
+
+    div.bold-text {
+        font-weight: 700;
+    }
+
+    div.bold-text 	> selector
+    font-weight 	> property
+    700		        > value
+
+A div element is one of the basic HMTL elements
+It is simply an empty container
+
+Selectors refer to the HTML elements to which CSS rules apply.
+
+<!-- index.html -->
+
+    <div>Hello, World!</div>
+    <p>Hi...</p>
+    <div>Okay, bye.</div>
+    <div class="alert-text">Please agree to our terms of service.</div>
+
+Universal selector — selects elements of every type; asterisk (*)
+Type selectors — selects elements of the given element type; name of element type (div)
+Class selectors — selects elements of the given class; period + name of class (.alert-text)
+ID selectors — selects elements of the give ID; hashtag + name of ID (#title)
+
+Notes: 
+You can use the same class on as many elements as you want
+Class selectors won't work if the class name begins with a number
+You are able to add multiple classes to a single element as a space-separated list; class="alert-text severe-alert"
+Major difference between classes and IDs is that an element can only have one ID
+IDs cannot be repeated on a single page and should not contain any whitespace
+ID selectors won't work if the class name begins with a number
+Selectors can be grouped together as a comma-separated list to cut down on the repetition
+
+You can do it like the following:
+
+    .read,
+    .unread {
+    color: white;
+    background-color: black;
+    }
+
+    .read {
+    /* several unique declarations */
+    }
+
+    .unread {
+    /* several unique declarations */
+    }
+
+Chaining selectors
+
+Class selectors
+
+    .subsection.header {
+    color: red;
+    }
+
+
+Class and ID
+
+    .subsection#preview {
+    color: blue;
+    }
+
+Descendant combinators
+
+    .ancestor .contents {
+    /* some declarations */
+    }
+
+Color property — sets the text color of an element
+Background-color — sets the background color of an element
+Both properties accept keywords, HEX, RGB, and HSL values.
+
+    p {
+    /* keyword example: */
+    color: red;
+    }
+
+    p {
+    /* hex example: */
+    color: #1100ff;
+    }
+
+    p {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+    }
+
+    p {
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+    }
