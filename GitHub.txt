@@ -1,0 +1,27 @@
+NAVIGATION
+git status
+doskey/history
+cls
+
+GITHUB
+git status
+git add .
+git commit -m "insert commit message"
+git push
+
+UPLOADING REMOTE REPO INTO GITHUB
+MUST HAVE ALREADY SET UP REPO ON GITHUB
+OPEN CMD ON LOCAL COMPUTER
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin https://github.com/emvmontiel/repositoryName.git
+git push -u origin main
+
+GET UPDATES FROM GITHUB TO LOCAL WORKSPACE
+git pull 						pull everything
+git pull origin main					pull main branch
+git pull origin main --allow-unrelated-histories	pull main branch with merging unrelated histories issues
+git push -u origin main					upload
+

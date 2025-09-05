@@ -176,3 +176,46 @@ ASSIGNMENT
 03-grouping-selectors
 04-chaining-selectors
 05-descendant-combinator
+
+September 5, 2025 14:36
+The Cascade
+https://www.theodinproject.com/lessons/foundations-the-cascade
+
+The cascade is what determines which rules actually get applied to our HTML
+There are different factors that the cascade uses to determine this
+We will examine three of these factors
+
+A CSS declaration that is more specific will take precedence over less specific ones
+Take precedence – means it will have more importance/priority
+
+Inline styles have the highest specificity compared to selectors
+While each type of selector has its own specificity level that contributes to how specific a declaration is
+Other selectors contribute to specificity, but we’re focusing only on the ones we’ve gone over so far
+
+1. ID selectors (most specific selector)
+2. Class selectors
+3. Type selectors
+
+Specificity will only be taken into account when an element has multiple, conflicting declarations targeting it
+
+An ID selector will always beat any number of class selectors
+A class selector will always beat any number of type selectors
+A type selector will always beat any number of less specific selectors
+
+A class is more specific than an element
+An ID is more specific than a class
+An inline style is more specific than an ID
+
+When there is no declaration with a selector of higher specificity, a rule with a greater number of selectors of the same type will take precedence over another rule with fewer selectors of the same type.
+
+MORE SELECTORS == MORE SPECIFIC
+
+Libog na diri: https://www.theodinproject.com/lessons/foundations-the-cascade#not-everything-adds-to-specificity
+
+The universal selector (*) has no specificity value
+
+There is an override command called !important that could prioritize the chosen element over everything elements
+
+p {
+    color: green !important;
+}
