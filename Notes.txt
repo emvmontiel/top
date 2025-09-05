@@ -1,0 +1,178 @@
+html-boilerplate
+
+        <!-- I am a comment -->
+        <!-- 
+            You can create multi-line comments
+            Such as this one
+            A shortcut to creating comments for Windows is Ctrl + /
+         -->
+
+        <!-- 
+            ul stands for unordered list
+            li stands for list item -->
+
+        <!-- unordered list means that the order must not matter -->
+        <!-- ordered list; order matters -->
+
+odin-links-and-images
+
+<!--
+    Links are created using the anchor element, which is represented by the a tag
+    The a tag has an href attribute which specifies the destination of the link
+    -->
+<!-- 
+    HTML attribute examples are: lang="en" and href="www.facebook.com"
+    An attribute is usually made up of two parts: a name, and a value
+    However, not all attributes require a value 
+
+    href attribute — stands for hypertext reference attribute
+    The value of the href attribute is the destination we want our link to go to
+    -->
+
+<!--
+    There are two types of links: absolute and relative
+
+    Absolute links to a different website
+    Absolute links include the scheme and domain e.g. https://www.theodinproject.com/about
+
+    Relative links to a different page within the present website
+    Relative links only include the file path to the other page e.g. about.html
+    -->
+
+<!-- 
+    To attach images, you can use the img element
+    The img is a void element which means it doesn't have a closing tag
+    It has a src attribute
+    It can also have an alt attribute which stands for alternative text; used to describe the attached image. It will be used in place of the image if it cannot be loaded.
+    It is a good habit to specify the width and height attributes to help the browser layout the page without causing the page to jump and flash
+    -->
+
+Sep 4, 2025 09:12
+https://www.theodinproject.com/lessons/foundations-intro-to-css
+
+CSS is made up of various rules. 
+Each rule is made up of a selector and a semicolon-separated list of declarations.
+Each declaration is made up of a property-value pair.
+
+    div.bold-text {
+        font-weight: 700;
+    }
+
+    div.bold-text 	> selector
+    font-weight 	> property
+    700		        > value
+
+A div element is one of the basic HMTL elements
+It is simply an empty container
+
+Selectors refer to the HTML elements to which CSS rules apply.
+
+<!-- index.html -->
+
+    <div>Hello, World!</div>
+    <p>Hi...</p>
+    <div>Okay, bye.</div>
+    <div class="alert-text">Please agree to our terms of service.</div>
+
+Universal selector — selects elements of every type; asterisk (*)
+Type selectors — selects elements of the given element type; name of element type (div)
+Class selectors — selects elements of the given class; period + name of class (.alert-text)
+ID selectors — selects elements of the give ID; hashtag + name of ID (#title)
+
+Notes: 
+You can use the same class on as many elements as you want
+Class selectors won't work if the class name begins with a number
+You are able to add multiple classes to a single element as a space-separated list; class="alert-text severe-alert"
+Major difference between classes and IDs is that an element can only have one ID
+IDs cannot be repeated on a single page and should not contain any whitespace
+ID selectors won't work if the class name begins with a number
+Selectors can be grouped together as a comma-separated list to cut down on the repetition
+
+You can do it like the following:
+
+    .read,
+    .unread {
+    color: white;
+    background-color: black;
+    }
+
+    .read {
+    /* several unique declarations */
+    }
+
+    .unread {
+    /* several unique declarations */
+    }
+
+Chaining selectors
+
+Class selectors
+
+    .subsection.header {
+    color: red;
+    }
+
+
+Class and ID
+
+    .subsection#preview {
+    color: blue;
+    }
+
+Descendant combinators
+
+    .ancestor .contents {
+    /* some declarations */
+    }
+
+Color property — sets the text color of an element
+Background-color — sets the background color of an element
+Both properties accept keywords, HEX, RGB, and HSL values.
+
+    p {
+    /* keyword example: */
+    color: red;
+    }
+
+    p {
+    /* hex example: */
+    color: #1100ff;
+    }
+
+    p {
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+    }
+
+    p {
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+    }
+________________________________
+TYPOGRAPHY BASICS AND TEXT-ALIGN
+https://www.theodinproject.com/lessons/foundations-intro-to-css#typography-basics-and-text-align
+
+Font-family 
+> can be a single value
+> can be a comma-separated list of values
+> determines what font an element uses
+______________________
+IMAGE HEIGHT AND WIDTH
+https://www.theodinproject.com/lessons/foundations-intro-to-css#image-height-and-width
+
+If you wanted to adjust the size of the image without causing it to lose its proportions, you would use a value of “auto” for the height property and adjust the width value.
+
+___________________________________
+THREE METHODS OF ADDING CSS TO HTML
+https://www.theodinproject.com/lessons/foundations-intro-to-css#adding-css-to-html
+1. External CSS
+2. Internal or embedded CSS
+3. Inline CSS
+
+__________
+ASSIGNMENT
+01-css-methods
+02-class-id-selectors
+03-grouping-selectors
+04-chaining-selectors
+05-descendant-combinator
