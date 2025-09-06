@@ -180,6 +180,8 @@ ASSIGNMENT
 September 5, 2025 14:36
 The Cascade
 https://www.theodinproject.com/lessons/foundations-the-cascade
+https://www.youtube.com/watch?v=_Q8Ih2SW-TE&pp=2AbXJg%3D%3D
+
 
 The cascade is what determines which rules actually get applied to our HTML
 There are different factors that the cascade uses to determine this
@@ -219,3 +221,7 @@ There is an override command called !important that could prioritize the chosen 
 p {
     color: green !important;
 }
+
+Sep 6 2025 22:12
+https://www.youtube.com/watch?v=MDR5GmurmVA&list=RDMDR5GmurmVA&start_radio=1
+
