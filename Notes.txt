@@ -237,3 +237,9 @@ These boxes can have other boxes in them
 These boxes can sit alongside one another
 
 Every single element in CSS is a box! Remember that!
+
+The Box Model consists of the following:
+1. Content 
+2. Padding
+3. Border
+4. Margin
