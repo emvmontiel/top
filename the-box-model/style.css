@@ -1,0 +1,27 @@
+* {
+    outline: 1px solid black;
+    
+}
+
+.inline {
+    padding: 0px;
+}
+
+strong {
+    color: black;
+    padding: 5px;
+}
+
+p, h4 {
+    color: blueviolet;
+    padding: 5px;
+}
+
+.whitespace {
+    margin: 30px;
+    text-align: center;
+}
+
+.last-line {
+    padding: 10px;
+}
