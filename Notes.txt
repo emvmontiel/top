@@ -225,3 +225,13 @@ p {
 Sep 6 2025 22:12
 https://www.youtube.com/watch?v=MDR5GmurmVA&list=RDMDR5GmurmVA&start_radio=1
 
+Sep 7 2025 09:46
+Started exploring Gooogle Chrome DevTools
+https://developer.chrome.com/docs/devtools/css
+
+The Box Model
+https://www.theodinproject.com/lessons/foundations-the-box-model
+
+Every single thing on a webpage is a rectangular box. 
+These boxes can have other boxes in them 
+These boxes can sit alongside one another
