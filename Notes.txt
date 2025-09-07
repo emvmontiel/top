@@ -235,3 +235,5 @@ https://www.theodinproject.com/lessons/foundations-the-box-model
 Every single thing on a webpage is a rectangular box. 
 These boxes can have other boxes in them 
 These boxes can sit alongside one another
+
+Every single element in CSS is a box! Remember that!
