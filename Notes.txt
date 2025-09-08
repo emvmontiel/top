@@ -238,8 +238,18 @@ These boxes can sit alongside one another
 
 Every single element in CSS is a box! Remember that!
 
-The Box Model consists of the following:
+Every element is basically a box, The Box Model consists of the following:
 1. Content 
 2. Padding
 3. Border
 4. Margin
+
+The box-sizing property in CSS can only have two values: 
+    box-sizing: content-box;            width set by the user applies to the size of the content only
+    box-sizing: border-box;             width set by the user applies to the size of the whole box
+
+CSS has two box types: 
+    1. block
+    2. inline
+
+The display property controls how HTML elements appear on the webpage.
