@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    border: 2px solid brown;
+    height: 100px;
+    flex: 1;
+  }
+
+.one {
+    border: 4px black;
+    height: 70px;
+    flex: 1;
+}
