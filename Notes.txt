@@ -242,14 +242,37 @@ Every element is basically a box, The Box Model consists of the following:
 1. Content 
 2. Padding
 3. Border
-4. Margin
+4. Margin -> https://css-tricks.com/almanac/properties/m/margin/
 
 The box-sizing property in CSS can only have two values: 
     box-sizing: content-box;            width set by the user applies to the size of the content only
     box-sizing: border-box;             width set by the user applies to the size of the whole box
 
+Block vs. Inline Elements
+https://www.w3schools.com/html/html_blocks.asp
 CSS has two box types: 
     1. block
     2. inline
 
 The display property controls how HTML elements appear on the webpage.
+
+Sep 9 2025 10:04
+
+https://www.freecodecamp.org/news/how-to-use-css-overview-in-chrome-developer-tools/
+There is a feature on Google Chrome called "CSS Overview"
+
+To access it, follow these steps:
+1. Ctrl + Shift + I
+2. Three vertical dots on the upper-right side
+3. More tools
+4. CSS Overview
+5. Capture Overview
+
+There is a shortcut for padding. Shown as follows:
+
+.content {
+  padding: 16px 8px;
+}
+
+        first value = top and bottom  
+        second value = left and right
