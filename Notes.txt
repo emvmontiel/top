@@ -276,3 +276,49 @@ There is a shortcut for padding. Shown as follows:
 
         first value = top and bottom  
         second value = left and right
+
+https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox
+
+> Flexbox is a way to arrange items into rows or columns.
+> A flex container is any element that has display: flex on it.
+> A flex item is any element that lives directly inside of a flex container.
+> An element can be both a flex container and a flex item
+> Nesting multiple flex containers and items is the way to do this
+> Flexbox is a very powerful tool.
+
+More about Flexbox!
+https://internetingishard.netlify.app/html-and-css/flexbox/index.html
+https://www.youtube.com/watch?v=phWxA89Dy94
+
+
+https://www.theodinproject.com/lessons/foundations-growing-and-shrinking
+The flex shorthand!
+"flex" is actually a shorthand for:
+    > flex-grow         sets how much of the space will be distributed when screen is resized to be bigger; relative to other elements which also acquire this property
+    > flex-shrink       sets how much of the space will be distributed when screen is resized to be smaller; relative to other elements which also acquire this property
+    > flex-basis        sets the base width of the element
+https://scrimba.com/learn-flexbox-c0k/~09
+
+Note: I suck at reading, I prefer watching video tutorials than reading and comprehending it all.
+
+https://www.theodinproject.com/lessons/foundations-axes
+A flex container has two axes: row and column.
+    row        = horizontal (default)
+    column     = vertical
+
+There are many properties a flexbox can have.
+
+.flex-container {
+  flex-direction: column;
+}
+
+Your flex-containers will always have two axes: 
+These axes change relative to the flex-direction
+    flex-direction: row
+        main axis       horizontal      left-to-right
+        cross axis      vertical        top-to-bottom
+    flex-direction: column
+        main axis       vertical        top-to-bottom
+        cross axis      horizontal      left-to-right
+https://flexbox.malven.co/
+https://scrimba.com/learn-flexbox-c0k/~01
