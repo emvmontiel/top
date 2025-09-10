@@ -1,3 +1,17 @@
+Sep 2 2025
+COMMAND PROMPT CHANGE DRIVE
+
+Type the drive letter followed by a colon (e.g., D:) and press Enter to switch to that drive. 
+To change both the drive and the directory at the same time, use the command cd /d [drive letter]:\[folder].
+
+USING GIT COMMIT COMMAND ON VSCODE TERMINAL
+
+To put a commit message, press Insert + Enter (keys from your keyboard)
+To exit from the commit message editor, Esc + Type ":wq"
+
+ON COMMAND PROMPT
+I + your commit message
+
 NAVIGATION
 git status
 doskey/history
@@ -20,8 +34,8 @@ git remote add origin https://github.com/emvmontiel/repositoryName.git
 git push -u origin main
 
 GET UPDATES FROM GITHUB TO LOCAL WORKSPACE
-git pull 						pull everything
-git pull origin main					pull main branch
+git pull 						                    pull everything
+git pull origin main					            pull main branch
 git pull origin main --allow-unrelated-histories	pull main branch with merging unrelated histories issues
-git push -u origin main					upload
+git push -u origin main					            upload
 
