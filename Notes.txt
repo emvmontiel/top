@@ -285,6 +285,7 @@ https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox
 > An element can be both a flex container and a flex item
 > Nesting multiple flex containers and items is the way to do this
 > Flexbox is a very powerful tool.
+> Flexbox is a whole module and not just a single property!
 
 More about Flexbox!
 https://internetingishard.netlify.app/html-and-css/flexbox/index.html
@@ -322,3 +323,14 @@ These axes change relative to the flex-direction
         cross axis      horizontal      left-to-right
 https://flexbox.malven.co/
 https://scrimba.com/learn-flexbox-c0k/~01
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Sep 10 20025 10:06
+https://www.theodinproject.com/lessons/foundations-alignment
+    > justify-content aligns items across the main axis
+    > align-items aligns items along the cross axis 
+
+    gap on a flex container adds a specified space between flex items, similar to adding a margin to the items themselves
+
+    Note: justify-content and align-items are relative to the flex-direction property.
