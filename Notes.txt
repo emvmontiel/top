@@ -326,7 +326,7 @@ https://scrimba.com/learn-flexbox-c0k/~01
 https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-Sep 10 20025 10:06
+Sep 10 2025 10:06
 https://www.theodinproject.com/lessons/foundations-alignment
     > justify-content aligns items across the main axis
     > align-items aligns items along the cross axis 
@@ -334,3 +334,13 @@ https://www.theodinproject.com/lessons/foundations-alignment
     gap on a flex container adds a specified space between flex items, similar to adding a margin to the items themselves
 
     Note: justify-content and align-items are relative to the flex-direction property.
+
+Sep 11 2025 15:00
+justify-content is a property for the flex container! 
+Please don't put it on a flex-item!!!   
+
+Useful properties for lists
+> list-style: none; removes bullets
+> margin: 0; removes default margin
+> padding: 0; removes default padding
+> text-decoration: none; removes underline; must be put under <a> tag
