@@ -67,3 +67,23 @@ a {
   height: 300px;
   padding: 15px;
 }
+
+/* 
+WA KO KASABOT ANI NA ACTIVITY OY PISKOT
+
+My confusion revolves around the flex properties:
+> flex-grow
+> flex-shrink
+> flex-basis
+> flex-wrap
+
+I am also confused of the following properties in general:
+> box-sizing
+> box- shadow
+> border-radius
+> gap (I understand a bit but I need to know how the system works)
+
+I feel like I am only confused of the placement of these properties.
+I still can't memorize and grasp all of these information at once and so,
+I need time to get accustomed to everything and successfully understand the big picture.
+*/
