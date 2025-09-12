@@ -344,3 +344,36 @@ Useful properties for lists
 > margin: 0; removes default margin
 > padding: 0; removes default padding
 > text-decoration: none; removes underline; must be put under <a> tag
+
+Sep 12 2025 20:54
+
+JavaScript is to make the webpage interactive!
+
+— All JavaScript of the Foundations course will be run via the browser.
+— Later lessons will show you how to run JavaScript outside of the browser environment.
+— The simplest way to get started is to create an HTML file with the JavaScript code inside of it. 
+
+Include the following code in your HTML body:
+  <script>
+    // Your JavaScript goes here!
+    console.log("Hello, World!")
+  </script>
+
+console.log() is the command to print something to the developer console in your browser.
+
+Another way to include JavaScript in a webpage is through an external script. 
+This is very similar to linking external CSS docs to your website.
+    <script src="javascript.js"></script>
+
+Note: External JavaScript files are used for more complex scripts.
+
+VARIABLES
+-> are the building blocks of any program
+-> you can think of variables as "storage containers" for data
+-> declare variables using the keyword "let", e.g.:
+
+    let name = "John";
+    let surname = "Doe";
+
+    console.log(name);
+    console.log(surname);
