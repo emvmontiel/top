@@ -384,6 +384,9 @@ Variables declared with 'let' are mutable.
 Mutable – are those that can be changed after they are created; the value or state of the variable can be modified without creating a new variable
 Immutable – opposite of mutable variables
 
+let     – Mutable; can be re-assigned
+const   – Immutable; cannot be re-assigned
+
 Sep 15 2025 19:34
 2 ways to attach a javascript file onto your HTML
 
@@ -402,3 +405,4 @@ Second Method
         console.log("Hello World!")
     </script>
 </body>
+
