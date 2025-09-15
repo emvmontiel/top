@@ -377,3 +377,28 @@ VARIABLES
 
     console.log(name);
     console.log(surname);
+
+Variables declared with 'let' are mutable.
+
+2 Type of Variables
+Mutable – are those that can be changed after they are created; the value or state of the variable can be modified without creating a new variable
+Immutable – opposite of mutable variables
+
+Sep 15 2025 19:34
+2 ways to attach a javascript file onto your HTML
+
+First Method
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am TIRED</title>
+    <script src="script.js"></script>
+</head>
+
+Second Method
+<body>       
+    <script>
+        console.log("Hello World!")
+    </script>
+</body>
