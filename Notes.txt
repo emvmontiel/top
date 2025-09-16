@@ -386,7 +386,7 @@ Immutable – opposite of mutable variables
 
 let     – Mutable; can be re-assigned
 const   – Immutable; cannot be re-assigned
-
+var     – similar to let; not used anymore but you may encounter in the future
 Sep 15 2025 19:34
 2 ways to attach a javascript file onto your HTML
 
@@ -406,3 +406,11 @@ Second Method
     </script>
 </body>
 
+Sep 16 2025 09:07
+Numbers are the building block sof programming logic!
+It is hard to think of any useful programming task that doesn't involve at least a little basic math.
+
+https://www.theodinproject.com/lessons/foundations-variables-and-operators
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+https://javascript.info/variables#variable-naming
+https://www.w3schools.com/js/js_numbers.asp
