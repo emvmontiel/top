@@ -36,3 +36,6 @@ const percentage = actual / max;
 console.log(max)
 console.log(actual)
 console.log(percentage)
+
+console.log(1 / 0) // Why is this?
+
