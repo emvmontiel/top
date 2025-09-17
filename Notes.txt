@@ -449,3 +449,71 @@ For example:
 For example:
     let age;
     alert(age); // shows "undefined"
+    
+Sep 17 2025 14:42
+
+strings in JavaScript
+
+JavaScript offers many features for manipulating strings.
+We declare a string by entering the following:
+    const variableName = "The revolution will not be televised!";
+    console.log(variableName);
+
+You are free to choose whether to use:
+    single quotes ('), 
+    double quotes ("), 
+    or backticks (`) to wrap your strings in.
+
+Embedding JavaScript
+> You can wrap JavaScript variables or expressions inside a template literal ${}
+
+For example:
+    const name = "Chris";
+    const greeting = `Hello, ${name}!`;
+    console.log(greeting);
+
+You can use the same technique to combine two variables as follows
+    const one = "Hello, ";
+    const two = "how are you?";
+    const joined = `${one}${two}`;
+    console.log(joined);
+
+Notes: 
+> You can use ${} only with template literals, not normal strings. 
+> You can concatenate normal strings using the + operator
+> You can include JavaScript expressions in template literals
+    const song = "Fight Song by Rachel Platten";
+    const score = 9;
+    const highestScore = 10;
+    const output = `I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`
+    console.log(output)
+
+> Template literals respect the line breaks in the source code, so you can write strings that span multiple lines as follows
+    const text = `One day, I am going to be free
+    from everything I see.`
+    console.log(text)
+
+> To create a new line using a normal string, use the escape sequence \n
+    const text = `One day, I am going to be free\nfrom everything I see.`
+    console.log(text)
+
+> To include actual quotes
+    1. Use different characters to declare the string   
+        const quote = `She said "I'm not going in there!"`;
+    2. Escaping characters
+        const bigmouth = 'I\'ve got no right to take my place…';
+
+> Converting a numeric value to a string variable and vice versa
+    Use the Number() function 
+        const myString = "123";
+        const myNum = Number(myString);
+        console.log(typeof myNum)
+    Use the String() function
+        const thisIsANumber = "123";
+        const thisIsAString = String(thisIsANumber);
+        console.log(typeof thisIsAString)
+
+JavaScript String Methods
+> https://www.w3schools.com/js/js_string_methods.asp
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
