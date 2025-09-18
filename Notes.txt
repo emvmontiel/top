@@ -517,3 +517,45 @@ JavaScript String Methods
 > https://www.w3schools.com/js/js_string_methods.asp
 > https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
+Sep 18 2025 10:08
+String Primitives & String Objects 
+    const string1 = "A string primitive";
+    const string2 = 'Also a string primitive';
+    const string3 = `Yet another string primitive`;
+    const string4 = new String("A String object");
+
+https://javascript.info/comparison // I like this website; very comprehensive
+> All comparison operators return a boolean value.
+> A comparison result can  be assigned to a variable, just like any value
+> JavaScript uses the dictionary or lexicographical order; strings are compared letter by letter
+    alert( 'Z' > 'A' ); // true
+    alert( 'Glow' > 'Glee' ); // true
+    alert( 'Bee' > 'Be' ); // true
+
+The algorithm to compare two strings is simple:
+    1. Compare the first character of both strings.
+    2. If the first character from the first string is greater (or less) than the other string’s, then the first string is greater (or less) than the second. We’re done.
+    3. Otherwise, if both strings’ first characters are the same, compare the second characters the same way.
+    4. Repeat until the end of either string.
+    5. If both strings end at the same length, then they are equal. Otherwise, the longer string is greater.
+
+Conditionals
+https://www.w3schools.com/js/js_if_else.asp
+
+You want to perform different actions for different decisions.
+You can use conditional statements in your code to do this.
+> if
+> else 
+> else if 
+> switch
+
+Note: Conditional statements are case-sensitive.
+
+Logical Operators   
+https://javascript.info/logical-operators
+    1. OR                       ||
+    2. AND                      &&
+    3. NOT                      !   
+    4. Nullish Coalescing       ??
+
+Truthy and Falsy Values in JavaScript
