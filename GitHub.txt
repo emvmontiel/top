@@ -34,10 +34,10 @@ git remote add origin https://github.com/emvmontiel/repositoryName.git
 git push -u origin main
 
 GET UPDATES FROM GITHUB TO LOCAL WORKSPACE
-git pull 						                    pull everything
-git pull origin main					            pull main branch
-git pull origin main --allow-unrelated-histories	pull main branch with merging unrelated histories issues
-git push -u origin main					            upload
+git pull 						                pull everything
+git pull origin main					            	pull main branch
+git pull origin main --allow-unrelated-histories			pull main branch with merging unrelated histories issues
+git push -u origin main					            	upload
 
 Sep 16 2025 18:18
 
@@ -48,3 +48,18 @@ Node provides an interactive console which lets you run and edit your JavaScript
 
 1. Open up VSC terminal and type node, press Enter
 2. Type .exit to quit
+
+Sep 23 2025 10:17
+Converting a Nested Repository to a Regular Folder
+Unfinished Steps (to be fixed)
+
+> deleted the folder from GitHub repo
+    git rm --cached javascript-exercises
+    git commit -m "convert javascript-exercises to folder"
+    git push
+
+> successfully converted javascript-exercises repository to a folder
+    git rm -r --cached javascript-exercises
+    git add javascript-exercises
+    git commit -m "convert to regular folder"
+    git push
