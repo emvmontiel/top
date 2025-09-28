@@ -559,3 +559,25 @@ https://javascript.info/logical-operators
     4. Nullish Coalescing       ??
 
 Truthy and Falsy Values in JavaScript
+
+Sep 28 2025 12:07
+https://www.theodinproject.com/lessons/foundations-data-types-and-conditionals
+Assignment – 02_addNumbers
+The plain javascript file is where you'll write your code
+The `spec` file contains the tests that verify your code is functional
+Run the test by entering into the terminal >> `npm test specFileName.spec.js`
+
+The following code can be found in a spec file:
+    const addNumbers = require('./addNumbers')
+
+    describe('addNumbers', () => {
+    test('adds the numbers together', () => {
+        expect(addNumbers()).toEqual(2);
+    });
+    });
+
+`require()` imports the code from the javascript file (`helloWorld.js`) so that we can test it
+`describe()` is the body of the test, basically, all it's doing is running your code and testing to see if the output is correct
+`test()` function describes what should be happening in plain english
+`expect()` function is included in the test function
+

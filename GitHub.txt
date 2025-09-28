@@ -6,8 +6,11 @@ To change both the drive and the directory at the same time, use the command cd 
 
 USING GIT COMMIT COMMAND ON VSCODE TERMINAL
 
-To put a commit message, press Insert + Enter (keys from your keyboard)
-To exit from the commit message editor, Esc + Type ":wq"
+To add a commit message using the editor, follow these steps:
+`these are action words, you do as they state. You do not type the words inside the backticks, you do them.`
+> git commit + `press` Enter
+> `press` Insert + `press` Enter
+> to exit from the commit message editor, `press` Esc + `Type` :wq
 
 ON COMMAND PROMPT
 I + your commit message
