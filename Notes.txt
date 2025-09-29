@@ -581,3 +581,12 @@ The following code can be found in a spec file:
 `test()` function describes what should be happening in plain english
 `expect()` function is included in the test function
 
+16:24
+
+Opening Chrome DevTools
+1. Chrome Menu > More Tools > Developer Tools
+2. Right-click anywhere on a webpage > Inspect
+3. F12
+4. Ctrl + Shift + C (directly opens console)
+
+Ctrl + Shift + C (can also be used to select an element)
