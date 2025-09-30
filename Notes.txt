@@ -634,10 +634,13 @@ If we just called the function without using console.log to print it’s return 
 
 Functions
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
+https://javascript.info/function-basics
 
+> functions are the main “building blocks” of the program
 > allow you to store a piece of code that does a single task inside a defined block
 > you are able to call that piece of code whenever you need it using a single short command;
 > rather than having to type out the same code multiple times
+> there are built-in functions; we can create them as well
 
 Pretty much anytime you make use of a JavaScript structure that features a pair of parentheses — () — 
     and you're not using a common built-in language structure like a for loop, while or do...while loop, or if...else statement, 
@@ -648,6 +651,29 @@ Scope
 > meaning that they are locked away in their own separate compartments, unreachable from code outside the functions
 
 Global Scope
-> the top-level outside all your functions is called the global scope
+> the level outside your function is called the global scope
 > values defined in the global scope are accessible from everywhere in the code
 > you can't declare the same constant twice in the same scope
+
+Return Values
+> the values that a function returns when it completes
+> some functions do not retun a significant value
+> but others do
+
+Understand
+> what their values are
+> how to use them in your code
+> how to make functions return useful values
+
+Two Ways to Create a Function
+Function Declaration vs Function Expression
+
+Declaration
+    function sayHi() {
+    alert( "Hello" );
+    }
+
+Expression
+    let sayHi = function() {
+    alert( "Hello" );
+    };
