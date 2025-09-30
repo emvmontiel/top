@@ -590,3 +590,64 @@ Opening Chrome DevTools
 4. Ctrl + Shift + C (directly opens console)
 
 Ctrl + Shift + C (can also be used to select an element)
+
+Sep 30 2025
+Device Mode in Chrome DevTools
+https://developer.chrome.com/docs/devtools/device-mode/
+
+> Ctrl + Shift + M
+> Toggle device toolbar on the upper left side of the Chrome DevTools page
+
+console.log()
+console.error()
+console.warn()
+console.clear()
+
+> console sidebar toggle is located on the upper left side below the Select an element toggle
+
+14:00
+There are parameter and arguments inside of a function.
+
+Parameters are the items listed between the parentheses in the function declaration.
+Function arguments are the actual values we decide to pass to the function.
+Look at this example:
+    function favoriteAnimal(animal) {
+        return animal + " is my favorite animal!"
+    }
+
+    console.log(favoriteAnimal('Goat'))
+
+> animal is the parameter
+> Goat is the argument
+
+We are telling JavaScript that we will send some value to our favoriteAnimal function by putting animal inside the parentheses of the favoriteAnimal() function.
+Note: animal is just a placeholder for some future value. 
+The last line, favoriteAnimal('Goat'), calls our favoriteAnimal function and passes the value 'Goat' inside that function. 
+'Goat' is our argument. 
+We are telling the favoriteAnimal function, “Please send 'Goat' to the favoriteAnimal function and use 'Goat' wherever the ‘animal’ placeholder is.” 
+Because of the flexibility that using a parameter provides, we can declare any animal to be our favorite.
+
+Make note of the fact that by calling favoriteAnimal() inside of console.log() with the argument 'Goat' we get the return value of the function, string of "Goat is my favorite animal!", printed to the console. 
+We’re passing in a function call favoriteAnimal('Goat') as an argument in a different function call - log().
+Keep this possibility in mind because you’ll be passing in function calls as arguments somewhat often. 
+If we just called the function without using console.log to print it’s return value, nothing would appear in the console but nonetheless the function would return that string.
+
+Functions
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Functions
+
+> allow you to store a piece of code that does a single task inside a defined block
+> you are able to call that piece of code whenever you need it using a single short command;
+> rather than having to type out the same code multiple times
+
+Pretty much anytime you make use of a JavaScript structure that features a pair of parentheses — () — 
+    and you're not using a common built-in language structure like a for loop, while or do...while loop, or if...else statement, 
+    you are making use of a function.
+
+Scope
+> when you create a function, the variables and other things defined inside the function are inside their own separate scope
+> meaning that they are locked away in their own separate compartments, unreachable from code outside the functions
+
+Global Scope
+> the top-level outside all your functions is called the global scope
+> values defined in the global scope are accessible from everywhere in the code
+> you can't declare the same constant twice in the same scope
