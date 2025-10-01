@@ -665,7 +665,7 @@ Understand
 > how to use them in your code
 > how to make functions return useful values
 
-Two Ways to Create a Function
+Three Ways to Create a Function
 Function Declaration vs Function Expression
 
 Declaration
@@ -677,3 +677,35 @@ Expression
     let sayHi = function() {
     alert( "Hello" );
     };
+
+Arrow Functions
+    let func = (arg1, arg2, ..., argN) => expression;
+
+
+Oct 1 2025 07:48
+https://javascript.info/arrow-functions-basics
+Arrow Functions
+> creates a function func that accepts arguments arg1..argN
+> then evaluates the expression on the right side with their use and 
+> returns its result
+
+let func = (arg1, arg2, ..., argN) => expression; 
+
+The code above is the shorter version of the code below
+
+    let func = function(arg1, arg2, ..., argN) {
+    return expression;
+    };
+
+A concrete example:
+
+    let sum = (a, b) => a + b;
+
+    /* 
+    This arrow function is a shorter form of:
+    let sum = function(a, b) {
+    return a + b;
+    };
+    */
+
+    alert( sum(1, 2) ); // 3
