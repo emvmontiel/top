@@ -685,9 +685,11 @@ Arrow Functions
 Oct 1 2025 07:48
 https://javascript.info/arrow-functions-basics
 Arrow Functions
+> a concise way to write function expressions
 > creates a function func that accepts arguments arg1..argN
 > then evaluates the expression on the right side with their use and 
 > returns its result
+> for simple functions that are only used once
 
 let func = (arg1, arg2, ..., argN) => expression; 
 
@@ -709,3 +711,5 @@ A concrete example:
     */
 
     alert( sum(1, 2) ); // 3
+
+Oct 3 2025
