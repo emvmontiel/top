@@ -713,3 +713,10 @@ A concrete example:
     alert( sum(1, 2) ); // 3
 
 Oct 3 2025
+
+Oct 5 2025
+https://www.javascripttutorial.net/javascript-call-stack/
+JavaScript Call Stack is used for debugging your code.
+A call stack is a way for the JavaScript engine to keep track of its place in code that calls multiple functions. 
+It has information on what function is being run and what functions are invoked from within that function.
+Uses the LIFO (last-in-first-out) Principle.
