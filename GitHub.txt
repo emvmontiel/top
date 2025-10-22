@@ -66,3 +66,20 @@ Unfinished Steps (to be fixed)
     git add javascript-exercises
     git commit -m "convert to regular folder"
     git push
+
+Oct 22 2025
+14:12
+
+To upload your local project folder on GitHub, create a new repository on GitHub.
+Do not add a README.md file. Do not add a .gitignore file. Leave every configuration by default.
+On your local computer, open command prompt, change directory into the folder of your local project and run the following commands.
+You have now successfully uploaded your local project on GitHub.
+
+echo "# repositoryName" >> README.md
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/emvmontiel/repositoryName.git
+git push -u origin main
