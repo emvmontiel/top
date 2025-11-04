@@ -773,3 +773,7 @@ The explanation for this is that, many of these functions are calling parts of t
 Note: Some built-in browser functions are not part of the core JavaScript language
 Some are defined as part of browser APIs, which build on top of the default language to provide even more functionality
 
+Custom functions are functions defined in your code, not inside the browser.
+Functions can contain whatever code you like
+You can even call other functions from inside functions.
+Methods are functions that are part of objects.
