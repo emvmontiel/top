@@ -748,3 +748,28 @@ https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Fu
 Functions allow you to store a piece of code that does a single task inside a defined block.
 You are able to call that code whenever you need it using a single short command.
 Rather than having to type out the same code multiple times.
+
+Nov 4 2025
+08:36
+09:12
+What is the purpose of functions?
+- To enable the creation of reusable blocks of code that can be called wherever needed
+
+It considered a function when the following conditions are ALL met:
+> Anytime you make use of a JavaScript structure that features a pair of parentheses ()
+> You're not using a common built-in language structure (for loop, while or do...while loop, if...else statement)
+
+We've used built-in functions every time we:
+> manipulated a text string
+> manipulated an array
+> generated a random number
+
+Note: The term "invoke" is a.k.a. run or execute.
+
+The JavaScript language has many built-in functions to allow you to do useful things without having to write all that code yourself.
+Trivia: Some of the code you are calling when you invoke a built-in browser function couldn't be written in JavaScript.
+The explanation for this is that, many of these functions are calling parts of the background browser code, which is written largely in low-level system languages like C++, not web languages like JavaScript.
+
+Note: Some built-in browser functions are not part of the core JavaScript language
+Some are defined as part of browser APIs, which build on top of the default language to provide even more functionality
+
