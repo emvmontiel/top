@@ -777,3 +777,25 @@ Custom functions are functions defined in your code, not inside the browser.
 Functions can contain whatever code you like
 You can even call other functions from inside functions.
 Methods are functions that are part of objects.
+
+Nov 6 2025
+08:07
+Function Scope
+When you create a function, the variables and other things defined inside the function are inside their own separate scope.
+In other words, they are locked away in their own separate compartments, unreachable from code outside the functions.
+
+Global scope – the top-level outside all your functions
+             – values defined in the global scope are accessible from everywhere in the code
+
+Note: JavaScript is like this for various reasons, mainly because of security and organization.
+There are instances where you don't want variables to be accessible from everywhere in the code
+External scripts that you call in from elsewhere could start to mess with your code
+It may cause problems/conflicts because they happen to be using the same variable names as other parts of the code
+
+Image: Like a zoo, the lions, zebras, tigers, and penguins are kept in their own enclosures and only have access to the things inside.
+Different animals would feel really uncomfortable inside unfamiliar habitats.
+In the same manner as the function scopes. 
+
+https://javascript.info/function-basics
+https://javascript.info/function-expressions
+
