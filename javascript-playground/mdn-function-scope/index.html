@@ -22,6 +22,14 @@
             return num1 * num2;
         }
         console.log(multiply(2, 3));
+
+        function capitalize(str) {
+            let myString = str.toLowerCase(); // hello
+            let final = myString.charAt(0).toUpperCase();
+            const len = myString.length;
+            return final + myString.slice(1, len)
+        }
+        console.log(capitalize("estelle"));
     </script>
 </body>
 </html>
