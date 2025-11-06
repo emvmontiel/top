@@ -799,3 +799,24 @@ In the same manner as the function scopes.
 https://javascript.info/function-basics
 https://javascript.info/function-expressions
 
+Function Expression
+> allows us to create a new function in the middle of any expression
+ 
+Examples
+
+Function Declaration
+    1 function sayHi() {
+    2 alert( "Hello" );
+    3 }
+
+Function Expression
+    1 let sayHi = function() {
+    2 alert( "Hello" );
+    3 };
+
+Take note of the following:
+> There is no name after the function keyword
+> Omitting a name is allowed for the function expressions
+> We immediately assign the function to the variable called sayHi
+
+No matter how the function is created, a function is a value.
