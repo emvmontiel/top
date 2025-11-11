@@ -825,3 +825,5 @@ JavaScript Call Stack
 > sort of a to do list for all the functions found in your code
 > a data structure the JavaScript runtime uses to keep track of which function is currently executing and what should run next
 > follows a last in first out process
+
+Nov 11 2025
