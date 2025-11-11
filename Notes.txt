@@ -827,3 +827,61 @@ JavaScript Call Stack
 > follows a last in first out process
 
 Nov 11 2025
+08:51
+
+The most important skill a developer needs: problem solving.
+Problem solving is the core thing software developers do.
+The programming languages and tools they use are secondary to this fundamental skill.
+
+From V. Anton Spraul's book, “Think Like a Programmer”,  defines problem solving in programming as:
+"Problem solving is writing an original program that performs a particular set of tasks and meets all stated constraints."
+
+The set of tasks can range from solving small coding exercises all the way up to building a social network site like Facebook or a search engine like Google. 
+
+Each problem has its own set of constraints, for example, high performance and scalability may not matter too much in a coding exercise, 
+    but it will be vital in apps like Google that need to service billions of search queries each day.
+
+New programmers often find problem solving the hardest skill to build.
+When trying to code something on your own, you may find yourself staring blankly at your text editor not knowing where to start.
+The best way to improve your problem solving ability is by building experience by making lots and lots of programs.
+
+The more practice you have the better you’ll be prepared to solve real world problems.
+
+1. The first step to solving a problem is understanding exactly what the problem is.
+    > gain clarity
+    > write it down on paper
+    > reword in play English until it makes sense
+    > draw diagrams if useful
+    
+When you can explain the problem to someone else in plain English, that's your indicator that you understand it.
+
+2. Now that you know what you’re aiming to solve, don’t jump into coding just yet. It’s time to plan out how you’re going to solve it first. 
+    Take note of the following questions:
+    > Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+    > What inputs will your program have? Will the user enter data or will you get input from somewhere else?
+    > What’s the desired output?
+    > Given your inputs, what are the steps necessary to return the desired output?
+
+3. Create a pseudocode. 
+    Pseudocode is writing out the logic for your program in natural language instead of code. 
+    It helps you slow down and think through the steps your program will have to go through to solve the problem.
+    
+    Example:
+    > Pseudocode for a program that prints all numbers up to an inputted number
+        1 When the user inputs a number
+        2 Initialize a counter variable and set its value to zero
+        3 While counter is smaller than user inputted number increment the counter by one
+        4 Print the value of the counter variable
+
+4. Divide and Conquer
+    > observe subproblems
+    > pick the simplest one and start there
+    > it is fine to not know all the steps that you might need up front 
+    > getting started on solving one subproblem often reveals the next
+    > or if you already know the next subproblem, it's simpler with the first subproblem solved
+
+DO NOT try to solve the big problem in one go!
+If the problem is sufficiently complex, you’ll get yourself tied in knots and make life a lot harder for yourself. 
+Decompose and start solving.
+
+Remember! Decomposition is the main way to deal with complexity, making problems easier and more approachable to solve and understand.
