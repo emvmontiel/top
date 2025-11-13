@@ -16,8 +16,11 @@
 <body>
     <h1>Inspect me!</h1>
     <script>
+        // FF DID NOT WORK
+        // Nov 13 I re-read the instructions and realized that I did not need to print the numbers on a single line of console.log()
+        // I wasted a day trying to accomplish this assignment with the incorrect outcome in mind
         // let userNum = prompt("Please enter any number")
-        // // console.log(userNum)
+        // console.log(userNum)
         // if (userNum == 1) {
         //     console.log(userNum)
         // } else if (userNum == 0) {
@@ -34,21 +37,33 @@
         // }
 
         let userNum = prompt("Please enter any number")
-            let i;
-            while (i <= userNum) {
-                console.log(i);
-                i++;}
-            // console.log(pr)
-            // console.log(1 + ' ' + userNum.toString())
-            // Write a program that takes a user’s input and prints the numbers from one to the number the user entered. 
+            var i;
+            for (i = 1; i < userNum; ++i){
+                if (i % 3 == 0 && i % 5 == 0) {
+                    console.log('FizzBuzz')
+                } else if (i % 3 == 0) {
+                    console.log('Fizz')            
+                } else if (i % 5 == 0) {
+                    console.log('Buzz')
+                } else {
+                    console.log(i);
+                }    
+            }
 
-            // if (userNum > 1) {
-            //     var pr = 1 + ' '
-            //     var incr = ++x
-            //     pr + incr
-            // } else {
-            //     console.log(1)
-            // }
+            if (i % 3 == 0 && i % 5 == 0) {
+                console.log('FizzBuzz')
+            } else if (i % 3 == 0) {
+                console.log('Fizz')            
+            } else if (i % 5 == 0) {
+                console.log('Buzz')
+            } else {
+                console.log(i);
+            }             
+
+        // For multiples of three print Fizz instead
+        // For multiples of five print Buzz
+        // For numbers which are multiples of both three and five print FizzBuzz
+
     </script>
 </body>
 </html>
