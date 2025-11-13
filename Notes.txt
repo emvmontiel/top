@@ -919,3 +919,5 @@ Steps Taken
 
 My Method: went directly into developing the code. Spent a lot of time figuring it all out because as it turns out, I pictured the wrong outcome in mind. I thought that the program should print everything in a single console.log() line.
 Takeaways: make sure that you have correctly understood the purpose of the program. That way, you won't be confused as to what the outcome should actually be.
+
+Stopped at Assignment #1 of https://www.theodinproject.com/lessons/foundations-problem-solving
