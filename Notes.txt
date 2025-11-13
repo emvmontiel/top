@@ -892,3 +892,30 @@ Instructions
     However, for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. 
     For numbers which are multiples of both three and five print FizzBuzz.
 
+Nov 13 2025
+10:05
+Solving FizzBuzz
+
+Steps Taken
+1. Understand the problem. Reword if you must.
+    Write a program that allows the user to enter a number, print each number between one and the number the user entered, but for numbers that divide by 3 without a remainder print Fizz instead. For numbers that divide by 5 without a remainder print Buzz and finally for numbers that divide by both 3 and 5 without a remainder print FizzBuzz.
+2. Planning. Ask the following questions:
+    – What will the program look like?
+    – Does it have an interface? 
+    – What inputs will it have? 
+    – Will the user enter data or will you get input from somewhere else?
+    – What’s the desired output?
+    Our FizzBuzz solution will be a browser console program, so we don’t need an interface. The only user interaction will be allowing users to enter a number.
+    The user will enter a number from a prompt (popup box).
+    The desired output is a list of numbers from 1 to the number the user entered. But each number that is divisible by 3 will output Fizz, each number that is divisible by 5 will output Buzz and each number that is divisible by both 3 and 5 will output FizzBuzz.
+3. Write the pseudocode
+    1 When a user inputs a number
+    2 Loop from 1 to the entered number
+    3 If the current number is divisible by 3 then print "Fizz"
+    4 If the current number is divisible by 5 then print "Buzz"
+    5 If the current number is divisible by 3 and 5 then print "FizzBuzz"
+    6 Otherwise print the current number
+4. Divide and Conquer
+
+My Method: went directly into developing the code. Spent a lot of time figuring it all out because as it turns out, I pictured the wrong outcome in mind. I thought that the program should print everything in a single console.log() line.
+Takeaways: make sure that you have correctly understood the purpose of the program. That way, you won't be confused as to what the outcome should actually be.
