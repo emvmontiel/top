@@ -921,3 +921,96 @@ My Method: went directly into developing the code. Spent a lot of time figuring 
 Takeaways: make sure that you have correctly understood the purpose of the program. That way, you won't be confused as to what the outcome should actually be.
 
 Stopped at Assignment #1 of https://www.theodinproject.com/lessons/foundations-problem-solving
+
+Nove 17 2025
+08:41
+
+“Everyone in this country should learn to program a computer, because it teaches you to think.” 
+— Steve Jobs
+
+To think like a programmer is all about a more effective way for problem solving.
+
+Problem solving is the META-SKILL.
+
+The way in which we deal with problems can sometimes be pretty random.
+
+The WORST way to solve problems:
+1. Try a solution
+2. If the solution doesn't work, try another one.
+3. Repeat step 2 until you luck out.
+
+The BEST way involves having a framework
+
+"Problem-solving skills are almost unanimously the most important qualification that employers look for….more than programming languages proficiency, debugging, and system design.
+Demonstrating computational thinking or the ability to break down large, complex problems is just as valuable (if not more so) than the baseline technical skills required for a job.” 
+— Hacker Rank (2018 Developer Skills Report)
+
+Steps
+1. Understand
+    Know what is asked.
+    Most problems are hard because you don't understand them.
+    Explain it in plain English.
+    “If you can’t explain something in simple terms, you don’t understand it.” 
+    — Richard Feynman
+2. Plan
+    Plan your solution.
+    Don't dive right into solving.
+    Give your brain time to process the information and analyze the problem.
+    Write down the exact steps.
+    A good plan answers the question: “Given input X, what are the steps necessary to return output Y?”
+3. Divide
+    Do not try to solve the big problem. You will cry. 🤣
+    Break it into sub-problems.
+    Solve each one by one.
+    Once you've finished solving every sub-problem, connect the dots.
+4. Stuck?
+    Take a deep breath.
+    Getting stuck is fair and normal.
+    The best programmers/problem-solvers are more curious about bugs/errors than irritated.
+    Try these steps:
+    > Debug (go step by step through your solution trying to find where you went wrong)
+    > Reassess (take a step back; look at the problem from another perspective; or if left with no choice, delete everything and start anew)
+    > Research
+    > Caveat
+        Don’t look for a solution to the big problem. 
+        Only look for solutions to sub-problems.
+        Unless you struggle (even a little bit), you won’t learn anything. 
+        If you don’t learn anything, you wasted your time.
+
+PRACTICE
+    Don’t expect to be great after just one week. 
+    If you want to be a good problem-solver, solve a lot of problems!
+    A common pattern amongst successful people is their habit of practicing “micro problem-solving.” 
+    For example, Peter Thiel plays chess, and Elon Musk plays video-games.
+    If you want to see what business leadership may look like in three to five years, look at what’s happening in online games.
+    Elon Musk, Reid Hoffman, Mark Zuckerberg and many others say that games have been foundational to their success in building their companies.
+    Find an outlet to practice!
+
+// Stopped taking notes. What is the point? Would I even follow this in the future? I think I'd dive into solving the problem directly.
+// If I needed a refresher, here are the following links.
+https://www.freecodecamp.org/news/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2/
+https://www.youtube.com/watch?v=azcrPFhaY9k
+https://www.builtin.com/data-science/pseudocode
+
+My most favorite lines from Andy Harris' How to Begin Thinking Like a Programmer 
+> Always remember to understand the problem first before attempting to solve it.
+> Code is there to explain the comments to the computer.
+
+Andy Harris' attempt at making the session interactive and fun impresses me. 
+He understands the importance of core concepts like teaching, clearly communicating, intonation, expressions and he has humor and charisma.
+
+Writing Pseudocode
+- one statement per line
+- use indent (show heirarchy, improve readability, nested constructs)
+- always end multi-line sections using END keywords
+- use naming domain of the problem, not that of the implementation; "append last to first name" instead of "name = first + last"
+- programming language independent
+- keep simple, concise, and readable
+
+Why?
+- focus on algorithm instead of syntax
+- programmers work alongside professionals of other fields, pseudocode makes communicating between different specializations efficient
+- makes transition between different development stages smooth
+- can serve as a starting point for documentation
+- allows quick bug detection
+
