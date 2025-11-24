@@ -83,3 +83,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/emvmontiel/repositoryName.git
 git push -u origin main
+
+Nov 24 2025
+17:19
+
+Useful Commands on Git
+git remote set-url origin https://github.com/emvmontiel/repositoryName.git
+    > updates the destination that your local Git repository talks to; keeps the name "origin" and changes the specific web address associated with it
