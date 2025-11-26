@@ -61,4 +61,4 @@ function playRound(humanChoice, computerChoice) {
 // How .toLowerCase() function works
 // let str = "whAT"
 // let lower = str.toLowerCase()
-// console.log(lower)
+// console.log(lower) 
