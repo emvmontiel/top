@@ -55,10 +55,21 @@ getComputerChoice()
 getHumanChoice()
 
 function playRound(humanChoice, computerChoice) {
-    let caseIns = humanChoice.toLowerCase()
-    humanChoice = caseIns
+    let caseIns = String(humanChoice)
+    caseIns = humanChoice.toL
+
+    switch (humanChoice, computerChoice) {
+        case humanChoice = "rock":
+        case computerChoice = "paper":
+            console.log("Computer loses")
+            break
+    }
 }
+
+playRound()
 // How .toLowerCase() function works
 // let str = "whAT"
 // let lower = str.toLowerCase()
 // console.log(lower) 
+
+function playGame() {}
