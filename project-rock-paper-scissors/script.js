@@ -42,7 +42,7 @@ console.log(x)
 //         console.log("I am working!")
 // }
 
-// I couldn't make the if statements work on my own
+// I couldn't get the if statements to work on my own
 // Code above is from Gemini
 // I think the problem was because of the order of the equality signs; sometimes I put = before the < or >
 
