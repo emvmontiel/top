@@ -1,75 +1,59 @@
-// console.log("Hello World")
-
 let humanScore = 0
 let computerScore = 0
 
 function getComputerChoice() {
-let x = Math.floor(Math.random() * 9) + 1
-console.log(x)
-    if (x >= 1 && x <= 3) {
-        console.log("rock");
-    } else if (x >= 4 && x <= 6) {
-        console.log("paper");
-    } else if (x >= 7 && x <= 9) {
-        console.log("scissors");
+    const rock = "Rock";
+    const paper = "Paper";
+    const scissors = "Scissors";
+let x;
+let y = Math.floor(Math.random() * 9) + 1
+    if (y >= 1 && y <= 3) {
+        x = rock;
+        console.log("Computer says " + x + "!");
+        return x;
+    } else if (y >= 4 && y <= 6) {
+        x = paper;
+        console.log("Computer says " + x + "!");
+        return x;
+    } else if (y >= 7 && y <= 9) {
+        x = scissors;
+        console.log("Computer says " + x + "!");
+        return x;
     } else {
         console.log("I am working!");
     }
 }
 
-// rock        > 1 - 3
-// paper       > 4 - 6
-// scissors    > 7 - 9
-
-// Switch-case works but if statements have fewer lines of code
-// switch (x) {
-//     case x = 1:
-//     case x = 2:
-//     case x = 3: 
-//         console.log("rock")
-//         break
-//     case (x = 4):
-//     case (x = 5):
-//     case (x = 6):
-//         console.log("paper")
-//         break
-//     case (x = 7):
-//     case (x = 8):
-//     case (x = 9):
-//         console.log("scissors")
-//         break
-//     default:
-//         console.log("I am working!")
-// }
-
-// I couldn't get the if statements to work on my own
-// Code above is from Gemini
-// I think the problem was because of the order of the equality signs; sometimes I put = before the < or >
-
 function getHumanChoice() {
-    let x = prompt("🪨📃✂️ SHOOT!")
-    console.log(x)
+    let x = prompt("🪨📃✂️ SHOOT!");
+    x = x.charAt(0).toUpperCase() + x.slice(1).toLowerCase();
+    console.log("You chose " + x + "!");
+    return x;
 }
 
-getComputerChoice()
-getHumanChoice()
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
 
-function playRound(humanChoice, computerChoice) {
-    let caseIns = String(humanChoice)
-    caseIns = humanChoice.toL
-
-    switch (humanChoice, computerChoice) {
-        case humanChoice = "rock":
-        case computerChoice = "paper":
-            console.log("Computer loses")
-            break
+function playRound(x, y) {
+    if (x === y) {
+        console.log("It's a tie! You must go again!");
+    } else if (
+        (x === "Rock" && y === "Paper") ||
+        (x === "Paper" && y === "Scissors") ||
+        (x === "Scissors" && y === "Rock")) {
+            console.log("Congratulations! You win!")
+    } else {
+        console.log("You lose dumb motherfucker!")
     }
 }
 
-playRound()
-// How .toLowerCase() function works
-// let str = "whAT"
-// let lower = str.toLowerCase()
-// console.log(lower) 
+playRound(computerSelection, humanSelection);
 
-function playGame() {}
+/* 
+    Jan 19 2026
+    There are a lot of takeaways for this project. It's worth noting that this took me such a long time to complete and 
+    I couldn't have done it without the help of AI. It made me question a lot of things including my ability to handle
+    logic because most of the logic in this program (like on line 29) was the work of Google Gemini, now, I don't know if 
+    that's a good thing, if it's all normal to use AI that way, all I know is that it will take some time for me to get
+    accustomed to this—to be able to find an appropriate and logical solution to a technical challenge all on my own.
+ */
