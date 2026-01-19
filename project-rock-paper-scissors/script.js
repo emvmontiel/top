@@ -1,3 +1,5 @@
+console.log("Let the games begin!");
+
 let humanScore = 0
 let computerScore = 0
 
@@ -31,8 +33,8 @@ function getHumanChoice() {
     return x;
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
+let humanSelection = getHumanChoice();
+let computerSelection = getComputerChoice();
 
 function playRound(x, y) {
     if (x === y) {
@@ -42,12 +44,12 @@ function playRound(x, y) {
         (x === "Paper" && y === "Scissors") ||
         (x === "Scissors" && y === "Rock")) {
             console.log("Congratulations! You win!")
-    } else {
-        console.log("You lose dumb motherfucker!")
+            humanScore += 1 ;
+        } else {
+            console.log("You lose dumb motherfucker!")
+            computerScore += 1 ;
     }
 }
-
-playRound(computerSelection, humanSelection);
 
 /* 
     Jan 19 2026
@@ -57,3 +59,33 @@ playRound(computerSelection, humanSelection);
     that's a good thing, if it's all normal to use AI that way, all I know is that it will take some time for me to get
     accustomed to this—to be able to find an appropriate and logical solution to a technical challenge all on my own.
  */
+
+function playGame() {
+    playRound(computerSelection, humanSelection)
+        humanSelection = getHumanChoice();
+        computerSelection = getComputerChoice();
+        console.log("Your score is " + humanScore + "!")
+        console.log("The computer's score is " + computerScore + "!")
+    playRound(computerSelection, humanSelection)
+        humanSelection = getHumanChoice();
+        computerSelection = getComputerChoice();
+        console.log("Your score is " + humanScore + "!")
+        console.log("The computer's score is " + computerScore + "!")
+    playRound(computerSelection, humanSelection)
+        humanSelection = getHumanChoice();
+        computerSelection = getComputerChoice();
+        console.log("Your score is " + humanScore + "!")
+        console.log("The computer's score is " + computerScore + "!")
+    playRound(computerSelection, humanSelection)
+        humanSelection = getHumanChoice();
+        computerSelection = getComputerChoice();
+        console.log("Your score is " + humanScore + "!")
+        console.log("The computer's score is " + computerScore + "!")
+    playRound(computerSelection, humanSelection)
+        humanSelection = getHumanChoice();
+        computerSelection = getComputerChoice();
+        console.log("Your score is " + humanScore + "!")
+        console.log("The computer's score is " + computerScore + "!")
+}
+
+playGame()
