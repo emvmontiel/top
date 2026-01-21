@@ -69,7 +69,7 @@ function playRound(x, y) {
    
    function scoreCounter(result) {
        if (result === "tie") {
-           console.log("Scores remain the same! Go again!")
+           console.log("Scores remain the same!")
         } else if (result === "human") {
             console.log("Your score is now " + humanScore + "! While the computer's score is " + computerScore + ".")
         } else {
