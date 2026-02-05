@@ -1,3 +1,6 @@
+// To be continued
+// Stopped at Step 5 of TOP Project: Rock Paper Scissors
+
 console.log("Let the games begin!");
 
 let humanScore = 0;
