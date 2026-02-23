@@ -45,21 +45,48 @@ let computerScore = 0;
 
 // humanChoice and computerChoice must be arguments for the function name playRound
 
-function playRound(humanChoice, computerChoice) {
+function playGame() {
+    function playRound(humanChoice, computerChoice) {
     
+    // Feb 23 2026 17:24
+    if (humanChoice === computerChoice) {
+        console.log("It's a tie! You must go again!");
+        return "tie";
+    } else if ((humanChoice === "Rock" && computerChoice === "Paper") ||
+    (humanChoice === "Paper" && computerChoice === "Scissors") ||
+    (humanChoice === "Scissors" && computerChoice === "Rock")) {
+        console.log("Congratulations! You lose!")
+        computerScore += 1 ;
+        return "computer";
+    } else {
+        console.log("You win!")
+        humanScore += 1 ;
+        return "human";
+    }
 }
 
-// if (x === y) {
-//     console.log("It's a tie! You must go again!");
-//     return "tie";
-// } else if ((x === "Rock" && y === "Paper") ||
-//             (x === "Paper" && y === "Scissors") ||
-//             (x === "Scissors" && y === "Rock")) {
-//                 console.log("Congratulations! You win!")
-//                 humanScore += 1 ;
-//                 return "human";
-//             } else {
-//                 console.log("You lose dumb motherfucker!")
-//                 computerScore += 1 ;
-//                 return "computer";
-//             }
+    let humanSelection = getHumanChoice();
+    let computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection)
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection)
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection)
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection)
+
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    playRound(humanSelection, computerSelection)
+
+}
+
+playGame()
+
+// Kulang score count
