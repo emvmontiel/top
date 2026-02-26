@@ -1016,6 +1016,7 @@ Why?
 
 Nov 24 2025 14:22
 https://www.theodinproject.com/lessons/foundations-understanding-errors
+
 Understanding Error Messages
 Reading and understanding error messages is a requirement as a developer.
 Error messages tell you everything you need to know about how to resolve them.
@@ -1043,3 +1044,54 @@ Common Types of Errors
     console.table()
     console.trace()
 
+Feb 26 2026 17:35
+https://www.theodinproject.com/lessons/foundations-clean-code
+
+You might think that the majority of a developer’s work involves writing code.
+In reality, a significant amount of time is spent on reading code.
+What we want to do here is give you some guidelines that can help improve the readability of your code as you go along. 
+The more you write code, the better it will become, both in terms of readability and other aspects.
+Focus on gradual improvement, not perfection.
+
+> distinguish hard to read code from easy to read code
+> utilize programming principles for cleaner code
+> write good comments
+
+Name things meaningfully!
+"A good name is descriptive"
+
+Use consistent vocabulary
+Consistency allows for predictability
+    // Example of consistent naming
+    function getPlayerScore();
+    function getPlayerName();
+    function getPlayerTag();
+
+    // Inconsistent naming
+    function getUserScore();
+    function fetchPlayerName();
+    function retrievePlayer1Tag();
+
+Variables should preferably begin with a noun > they typically represent things
+Functions should preferably begin with a verb > they typically represent actions
+
+Avoid  “magic values” i.e. explicit values as shown in the following
+    // Avoid this
+    setTimeout(stopTimer, 3600000);
+
+    // Do this instead
+    const ONE_HOUR = 3600000; // Can even write as 60 * 60 * 1000;
+    setTimeout(stopTimer, ONE_HOUR);
+
+The variable (ONE_HOUR) is declared with a descriptive name
+You don’t need to perform any calculations when reading this code
+
+Naming Conventions
+1. Camel Case (camelCase)
+2. All Uppercase (ALL_UPPERCASE)
+
+All Uppercase 
+- intended to be used when the programmer is absolutely sure that the variable is truly a constant
+- especially if it represents some kind of concept like a specific duration of time
+
+Stopped at this checkpoint/link > https://www.theodinproject.com/lessons/foundations-clean-code#indentation-and-line-length
