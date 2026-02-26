@@ -50,7 +50,7 @@ odin-links-and-images
 Sep 4, 2025 09:12
 https://www.theodinproject.com/lessons/foundations-intro-to-css
 
-CSS is made up of various rules. 
+CSS is made up of various rules.
 Each rule is made up of a selector and a semicolon-separated list of declarations.
 Each declaration is made up of a property-value pair.
 
@@ -77,7 +77,7 @@ Selectors refer to the HTML elements to which CSS rules apply.
 Universal selector — selects elements of every type; asterisk (*)
 Type selectors — selects elements of the given element type; name of element type (div)
 Class selectors — selects elements of the given class; period + name of class (.alert-text)
-ID selectors — selects elements of the give ID; hashtag + name of ID (#title)
+ID selectors — selects elements of the given ID; hashtag + name of ID (#title)
 
 Notes: 
 You can use the same class on as many elements as you want
@@ -181,7 +181,6 @@ September 5, 2025 14:36
 The Cascade
 https://www.theodinproject.com/lessons/foundations-the-cascade
 https://www.youtube.com/watch?v=_Q8Ih2SW-TE&pp=2AbXJg%3D%3D
-
 
 The cascade is what determines which rules actually get applied to our HTML
 There are different factors that the cascade uses to determine this
@@ -387,6 +386,7 @@ Immutable – opposite of mutable variables
 let     – Mutable; can be re-assigned
 const   – Immutable; cannot be re-assigned
 var     – similar to let; not used anymore but you may encounter in the future
+
 Sep 15 2025 19:34
 2 ways to attach a javascript file onto your HTML
 
@@ -407,7 +407,7 @@ Second Method
 </body>
 
 Sep 16 2025 09:07
-Numbers are the building block sof programming logic!
+Numbers are the building blocks sof programming logic!
 It is hard to think of any useful programming task that doesn't involve at least a little basic math.
 
 https://www.theodinproject.com/lessons/foundations-variables-and-operators
