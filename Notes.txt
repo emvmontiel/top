@@ -1226,3 +1226,26 @@ Some curly braces that contain a block of code
  document.getElementsByClassName()  > selects all elements with the specified class name; returns a HTMLCollection
  document.querySelector()           > selects the first element that matches the CSS selector; can be null
  document.querySelectorAll()        > selects all elements that match the CSS selector; returns a static nodelist
+
+For Loop Example
+ 1  const results = document.querySelector("#results");
+ 2
+ 3  function calculate() {
+ 4    for (let i = 1; i < 10; i++) {
+ 5      const newResult = `${i} x ${i} = ${i * i}`;
+ 6      results.textContent += `${newResult}\n`;
+ 7    }
+ 8    results.textContent += "\nFinished!\n\n";
+ 9  }
+10
+11  const calculateBtn = document.querySelector("#calculate");
+12  const clearBtn = document.querySelector("#clear");
+13
+14  calculateBtn.addEventListener("click", calculate);
+15  clearBtn.addEventListener("click", () => (results.textContent = ""));
+
+You can exit a loop before all iterations have been completed by using the break statement.
+A break statement immediately exits the loop and make the browser move on to any code that follows it.
+
+Similar to a break statement, but instead of breaking out of the loop, the continue statement skips to the next iteration of the loop.
+
