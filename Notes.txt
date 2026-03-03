@@ -1121,3 +1121,96 @@ Speed depends on the complexity of the task and speed of the computer itself
 
 Stopped here: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
 
+Looping through collections
+> Sometimes, you will have a collection of items and want to do something with every item.
+> A for...of loop allows you to do this.
+
+Types of Collections
+1. Arrays
+2. Set
+3. Map
+
+Looping through an array
+    1 const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+    2 for (const cat of cats) {
+    3 console.log(cat);
+    4 }
+
+In the example, for (const cat of cats) says the following:
+    1. Given the collection `cats`, get the first item in the collection.
+    2. Assign it to the variable `cat` and then run the code between the curly braces {}.
+    3. Get the next item, and repeat (item # 2) until you've reached the end of the collection.
+
+map() allows you to do something to each item in a collection and create a new collection containing the changed items
+Here we pass a function into cats.map()
+map() calls the function once for each item in the array, passing in the item
+It then adds the return value from each function call to a new array
+Finally returns the new array
+In this case the function we provide converts the item to uppercase
+
+    1 function toUpper(string) {
+    2 return string.toUpperCase();
+    3 }
+    4 const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+    5 const upperCats = cats.map(toUpper);
+    6 console.log(upperCats);
+    7 // [ "LEOPARD", "SERVAL", "JAGUAR", "TIGER", "CARACAL", "LION" ]
+
+The resulting array contains all our cats in uppercase: [ "LEOPARD", "SERVAL", "JAGUAR", "TIGER", "CARACAL", "LION" ]
+
+filter() allows you to test each item in a collection, and create a new collection containing only items that match
+Similar to map(), except the function we pass in returns a boolean
+If it returns true, then the item is included in the new array
+Our function lCat() tests whether the string starts with the letter "L"
+So the resulting array contains only cats whose names start with "L"
+
+    1  function lCat(cat) {
+    2    return cat.startsWith("L");
+    3  }
+    4
+    5  const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+    6  const filtered = cats.filter(lCat);
+    7  console.log(filtered);
+    8  // [ "Leopard", "Lion" ]
+
+Note that map() and filter() are both often used with function expressions.
+
+Refactor the code above using function expressions to be more concise.
+
+    1  const cats = ["Leopard", "Serval", "Jaguar", "Tiger", "Caracal", "Lion"];
+    2  const filtered = cats.filter((cat) => cat.startsWith("L"));
+    3  console.log(filtered);
+    4  // [ "Leopard", "Lion" ]
+
+The for loop has the following syntax:
+    1  for (initializer; condition; final-expression) {
+    2    // code to run
+    3  }
+
+Parts of a for loop
+> keyword `for` 
+> parentheses
+> initializer 
+> condition 
+> final-expression 
+> curly braces 
+> code to run 
+> keyword `end`
+
+An initializer 
+— this is usually a variable set to a number
+— this number is incremented to count the number of times the loop has run
+— it is also sometimes referred to as a counter variable
+
+A condition
+— this defines when the loop should stop looping
+— this is generally an expression featuring a comparison operator
+— a test to see if the exit condition has been met
+
+A final-expression 
+— this is always evaluated (or run) each time the loop has gone through a full iteration
+— it usually serves to increment (or in some cases decrement) the counter variable
+— used to bring it closer to the point where the condition is no longer true.
+
+Some curly braces that contain a block of code
+ — this code will be run each time the loop iterates
