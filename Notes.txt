@@ -1104,3 +1104,20 @@ Comments    > good comments explain the reasons behind a piece of code
 
 "Great code comes from experience. Experience comes from not-so-great code."
 
+https://www.theodinproject.com/lessons/foundations-loops-and-arrays
+Challenges of programming: repetition.
+We must streamline repeated instructions for readability.
+Loops are control structures that allow you to execute a block of code repeatedly.
+Arrays are data structures that allow you to store multiple values in a single variable.
+Arrays are useful for organizing and manipulating large amounts of data.
+Test-driven Development (TDD) is the practice of writing tests for your code before you write the code itself.
+
+Computers never get tired
+Computers are very fast
+Computers are well suited to solving problems involving multiple calculations
+Computer is able to repeat a task a thousand/million times in a few seconds
+On the other hand, humans might take up hours for the same amount of tasks
+Speed depends on the complexity of the task and speed of the computer itself
+
+Stopped here: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops
+
