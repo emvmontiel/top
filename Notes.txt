@@ -1214,3 +1214,15 @@ A final-expression
 
 Some curly braces that contain a block of code
  — this code will be run each time the loop iterates
+
+ Element Selectors
+ > are in the form of methods
+ > used to select and manipulate HTML elements
+ > allows you to select one or more elements
+ > elements from the DOM (Document Object Model)
+
+ document.getElementById()          > selects the element with the specified ID; can be null
+ document.getElementsByTagName()    > selects all elements with the specified tag name; returns a HTMLCollection
+ document.getElementsByClassName()  > selects all elements with the specified class name; returns a HTMLCollection
+ document.querySelector()           > selects the first element that matches the CSS selector; can be null
+ document.querySelectorAll()        > selects all elements that match the CSS selector; returns a static nodelist
