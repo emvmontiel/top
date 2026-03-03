@@ -1094,4 +1094,13 @@ All Uppercase
 - intended to be used when the programmer is absolutely sure that the variable is truly a constant
 - especially if it represents some kind of concept like a specific duration of time
 
-Stopped at this checkpoint/link > https://www.theodinproject.com/lessons/foundations-clean-code#indentation-and-line-length
+Mar 3 2026 08:47
+Indentation > choose a way to indent and make it consistent
+Line length > break lines longer than 80 characters
+            > break immediately after an operator or comma
+Semicolons  > optional in JavaScript because the interpreter automatically inserts them when ommitted
+            > still add them to prevent bugs and errors
+Comments    > good comments explain the reasons behind a piece of code
+
+"Great code comes from experience. Experience comes from not-so-great code."
+
