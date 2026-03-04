@@ -1182,7 +1182,7 @@ Refactor the code above using function expressions to be more concise.
     3  console.log(filtered);
     4  // [ "Leopard", "Lion" ]
 
-The for loop has the following syntax:
+for loop syntax
     1  for (initializer; condition; final-expression) {
     2    // code to run
     3  }
@@ -1249,3 +1249,24 @@ A break statement immediately exits the loop and make the browser move on to any
 
 Similar to a break statement, but instead of breaking out of the loop, the continue statement skips to the next iteration of the loop.
 
+Mar 4 2026 08:19
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Loops#skipping_iterations_with_continue
+
+while loop syntax
+ 1  initializer
+ 2  while (condition) {
+ 3    // code to run
+ 4    final-expression
+ 5  }
+
+Difference of 
+
+ > do... while loop
+ > while loop
+
+    is do... while loop is always executed at least once.
+In while and for loops, the check comes first.
+So the code might never be executed.
+
+Math.sqrt() checks whether the number is a perfect square.
+Math.floor() rounds off the number down to the nearest integer.
