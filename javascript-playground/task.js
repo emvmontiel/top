@@ -58,7 +58,7 @@ async function postMethod(formdata, xtk){
             if (xresult.imagename > ""){
                 const fileBuff = await imgfile.arrayBuffer();
                 const fileType = getFileType(fileBuff);
-                if (fileType == "image/jpeg"  fileType == "image/png"  fileType == "image/gif" || fileType == "application/pdf" ) {
+                if (fileType == "image/jpeg", fileType == "image/png", fileType == "image/gif" || fileType == "application/pdf" ) {
                   await uploadFile("attachments", xresult.imagename ,Buffer.from(fileBuff));
                 } else {
                   await xattachment.deleteattachment(xresult._id, xtk);
