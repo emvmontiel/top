@@ -90,3 +90,26 @@ Nov 24 2025
 Useful Commands on Git
 git remote set-url origin https://github.com/emvmontiel/repositoryName.git
     > updates the destination that your local Git repository talks to; keeps the name "origin" and changes the specific web address associated with it
+
+Mar 12 2026
+The error "fatal: remote origin already exists" occurs because you are trying to add a remote repository with the name origin
+But a remote with that name has already been configured in your local Git repository. 
+The name "origin" is a conventional alias for the primary remote, not a reserved command.
+
+Resolution
+1. Verify the current remote configuration          git remote -v
+2. Set the new URL the existing "origin" remote     git remote set-url origin https://github.com/emvmontiel/repositoryName.git
+
+Other Useful Commands
+1. Remove the existing origin                       git remote remove origin
+2. Verify it's removed                              git remote -v       
+3. Add the new origin with the correct URL          git remote add origin https://github.com/emvmontiel/repositoryName.git
+
+git branch -M main
+    > -M flag is used to force the renaming of the branch even if a branch named main already exists
+    > changes the name of the current branch to "main"
+git push -u origin main
+    > uploads your code to GitHub for the first time
+    > -u (upstream) flag links your local main branch to the main branch on GitHub
+    > because of the -u, the next time you want to save your work to the cloud, you don't have to type the whole sentence
+    > simply type git push and Git will remember where it's supposed to go
