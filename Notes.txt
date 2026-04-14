@@ -1270,3 +1270,18 @@ So the code might never be executed.
 
 Math.sqrt() checks whether the number is a perfect square.
 Math.floor() rounds off the number down to the nearest integer.
+
+April 13 2026 09:13
+Loops are all about doing the same thing over and over again
+
+Halting Loops
+1. break -      break out of a loop; stop
+2. continue -   skip current iteration of a loop; skip
+
+Async and Defer Attributes in JavaScript
+- used along script tags to load the external scripts efficiently into a webpage
+- boolean atttributes
+
+Event of Loading a Webpage 
+1. HTML Parsing
+2. Loading of Scripts (fetching scripts from network and executing the script line by line)
