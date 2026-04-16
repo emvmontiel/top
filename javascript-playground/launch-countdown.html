@@ -4,54 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        const output = document.querySelector(".output");
-        output.textContent = "";
-        for (let i = 10; i === 0; i--) {
-            if (i === 10) {
-                const para = document.createElement('p');
-                para.textContent = "Countdown " + i;
-                output.appendChild(para);
-            } else if (i === 0) {
-                const para = document.createElement('p');
-                para.textContent = "Blastoff!";
-                output.appendChild(para);
-            } else {
-                const para = document.createElement('p');
-                para.textContent = i;
-                output.appendChild(para);                
-            }
-        }
-    </script>
     <style>
         html {
             font-family: sans-serif;
         }
-
+        
         h2 {
             font-size: 16px;
         }
-
+        
         .a11y-label {
             margin: 0;
             text-align: right;
             font-size: 0.7rem;
             width: 98%;
         }
-
+        
         body {
             margin: 10px;
             background: #f5f9fa;
         }
-
+        
         .output {
             height: 410px;
             overflow: auto;
         }
-
-    </style>
+        
+        </style>
 </head>
 <body>
     <div class="output"></div>
+    <script>
+        const output = document.querySelector(".output");
+        output.textContent = "";
+        for (let i = 10; i >= 0; i--) {
+            const para = document.createElement('p');
+            if (i === 10) {
+                para.textContent = "Countdown " + i;
+            } else if (i === 0) {
+                para.textContent = "Blastoff!";
+            } else {
+                para.textContent = i;
+            }
+            output.appendChild(para);                
+        }
+    </script>
 </body>
 </html>
