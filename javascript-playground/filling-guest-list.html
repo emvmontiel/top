@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      .a11y-label {
+        margin: 0;
+        text-align: right;
+        font-size: 0.7rem;
+        width: 98%;
+      }
+
+      body {
+        margin: 10px;
+        background: #f5f9fa;
+      }
+
+      .output {
+        height: 100px;
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="output">
+      <p class="admitted">Admit:</p>
+      <p class="refused">Refuse:</p>
+    </div>
+
+    <script>
+      const people = [
+        "Chris",
+        "Anne",
+        "Colin",
+        "Terri",
+        "Phil",
+        "Lola",
+        "Sam",
+        "Kay",
+        "Bruce",
+      ];
+
+      const admitted = document.querySelector(".admitted");
+      const refused = document.querySelector(".refused");
+      admitted.textContent = "Admit: ";
+      refused.textContent = "Refuse: ";
+
+      // loop starts here
+
+      for (let guest of people) {
+        if (guest == "Phil" || guest == "Lola") {
+          refused.textContent += guest + ", ";
+        } else {
+          admitted.textContent += guest + ", ";
+        }
+      }
+
+      admitted.textContent = admitted.textContent.slice(0, -2);
+      refused.textContent = refused.textContent.slice(0, -2);
+
+      // Finished 3:34 PM Apr 16 2026; daghana nakog na-learn oi
+      // You must focus on one thing at a time when coding
+      // Acknowledge unfamiliar concepts and work from there; it is possible
+      // Importance and essence of variables
+      // I still don't memorize the syntax of the language and control structures (conditional statements)
+      // Importante pud ang adequate breaks. When you start coding, after a while, your mind gets foggy. At that point, you must take a break to refresh your mind and come back to the issue you are trying to solve. Don't burn yourself out.
+    </script>
+  </body>
+</html>
