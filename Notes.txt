@@ -1274,7 +1274,6 @@ Math.floor() rounds off the number down to the nearest integer.
 April 13 2026 09:13
 Loops are all about doing the same thing over and over again
 
-Halting Loops
 1. break -      break out of a loop; stop
 2. continue -   skip current iteration of a loop; skip
 
@@ -1285,3 +1284,11 @@ Async and Defer Attributes in JavaScript
 Event of Loading a Webpage 
 1. HTML Parsing
 2. Loading of Scripts (fetching scripts from network and executing the script line by line)
+
+Apr 16 2026
+The while loop has the following syntax
+1 while (condition) {
+2   // code or also known as the "loop body"
+4 }
+
+A single execution of the loop body is called an iteration
