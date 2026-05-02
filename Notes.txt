@@ -407,7 +407,7 @@ Second Method
 </body>
 
 Sep 16 2025 09:07
-Numbers are the building blocks sof programming logic!
+Numbers are the building blocks of programming logic!
 It is hard to think of any useful programming task that doesn't involve at least a little basic math.
 
 https://www.theodinproject.com/lessons/foundations-variables-and-operators

@@ -68,52 +68,52 @@ const text2 = `One day, I am going to be free\nfrom everything I see.`
 console.log(text2)
 
 switch (new Date().getDay()) {
-    case 0:
-      day = "Sunday";
-      break;
+  case 0:
+    day = "Sunday";
+    break;
     case 1:
       day = "Monday";
       break;
-    case 2:
-       day = "Tuesday";
-      break;
-    case 3:
-      day = "Wednesday";
-      break;
-    case 4:
-      day = "Thursday";
-      break;
-    case 5:
-      day = "Friday";
-      break;
-    case 6:
-      day = "Saturday";
-  }
-
-const dateToday = new Date();
-console.log(dateToday);
-// console.log(dateToday.getDay());
-console.log(day);
-
-const animal = "Hanimungkal";
-
-function favoriteAnimal(ikaw) {
-  return 'My favorite animal is ' + ikaw;
-}
-console.log(favoriteAnimal(animal));
-
-const myText = "I am a string";
-const newString = myText.replace("string", "sausage");
-const secondTrial = myText.replace("I", "ooo")
-console.log(newString);
-console.log(secondTrial);
-// the replace() string function takes a source string,
-// and a target string and replaces the source string,
-// with the target string, and returns the newly formed string
-
-function sayHi(oi) {
-  alert( "Hello" );
-  return oi;
-}
-
-console.log(sayHi(name))
+      case 2:
+        day = "Tuesday";
+        break;
+        case 3:
+          day = "Wednesday";
+          break;
+          case 4:
+            day = "Thursday";
+            break;
+            case 5:
+              day = "Friday";
+              break;
+              case 6:
+                day = "Saturday";
+              }
+              
+              const dateToday = new Date();
+              console.log(dateToday);
+              // console.log(dateToday.getDay());
+              console.log(day);
+              
+              const animal = "Hanimungkal";
+              
+              function favoriteAnimal(ikaw) {
+                return 'My favorite animal is ' + ikaw;
+              }
+              console.log(favoriteAnimal(animal));
+              
+              const myText = "I am a string";
+              const newString = myText.replace("string", "sausage");
+              const secondTrial = myText.replace("I", "ooo")
+              console.log(newString);
+              console.log(secondTrial);
+              // the replace() string function takes a source string,
+              // and a target string and replaces the source string,
+              // with the target string, and returns the newly formed string
+              
+              function sayHi(oi) {
+                alert( "Hello" );
+                return oi;
+              }
+              
+              console.log(sayHi(name))
