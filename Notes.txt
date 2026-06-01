@@ -62,7 +62,7 @@ Each declaration is made up of a property-value pair.
     font-weight 	> property
     700		        > value
 
-A div element is one of the basic HMTL elements
+A div element is one of the basic HTML elements
 It is simply an empty container
 
 Selectors refer to the HTML elements to which CSS rules apply.
@@ -78,6 +78,11 @@ Universal selector — selects elements of every type; asterisk (*)
 Type selectors — selects elements of the given element type; name of element type (div)
 Class selectors — selects elements of the given class; period + name of class (.alert-text)
 ID selectors — selects elements of the given ID; hashtag + name of ID (#title)
+
+Universal   *
+Type        div
+Class       .alert-text
+ID          #title
 
 Notes: 
 You can use the same class on as many elements as you want
