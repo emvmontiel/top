@@ -88,10 +88,11 @@ Notes:
 You can use the same class on as many elements as you want
 Class selectors won't work if the class name begins with a number
 You are able to add multiple classes to a single element as a space-separated list; class="alert-text severe-alert"
-Major difference between classes and IDs is that an element can only have one ID
 IDs cannot be repeated on a single page and should not contain any whitespace
 ID selectors won't work if the class name begins with a number
 Selectors can be grouped together as a comma-separated list to cut down on the repetition
+
+Note! Major difference between classes and IDs is that an element can only have one ID
 
 You can do it like the following:
 
